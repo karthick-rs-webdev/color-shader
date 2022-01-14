@@ -93,8 +93,11 @@ function ShadeGenerator() {
             setDynamicColors("Enter Color Input in Search Box");
         }
         else if (value.length >= 3) {
-            setDynamicColors("Getting Color...");
-            fetchImage(value);
+            if (SERP_KEY) {
+                setDynamicColors("Getting Color...");
+                fetchImage(value);
+            }
+            else alert("SERP API Key Not Found");
         }
         else {
             setDynamicColors("Keep Typing...");
