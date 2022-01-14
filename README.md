@@ -1,4 +1,4 @@
-#### Clone this project by using this link
+#### Clone this project by using this link- https://github.com/karthick-rs-webdev/color-shader.git
 #### code is under master
 #### and then run `npm start`
 #### Following Dependencies are Installed for this project
