@@ -1,0 +1,71 @@
+/* ------Fonts-------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom left, #a2efe2, #f5d376);
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.colorContainer{
+    width: 80%;
+    min-height: 90vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.searchInput{
+    width: 70%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0px 20px;
+    outline: none;
+}
+.searchInput:focus{
+    border: 1px solid #e02f6b;
+}
+
+.resultContainer{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.resultContainer .colorCard{
+    /* background-color: aqua; */
+    min-height: 30vh;
+    width: 17%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .resultContainer .colorCard{
+        min-height: 20vh;
+    }
+    .resultContainer p{
+        font-size: x-small;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .resultContainer .colorCard{
+        min-height: 25vh;
+    }
+}
