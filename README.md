@@ -1,5 +1,5 @@
 #### Clone this project by using this link- https://github.com/karthick-rs-webdev/color-shader.git
-#### code is under master
+#### code is under master branch(default)
 #### and then run `npm start`
 #### Following Dependencies are Installed for this project
 1. User Search Engine Results Page(SERP) API for get image from user input
