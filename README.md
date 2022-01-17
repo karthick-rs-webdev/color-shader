@@ -4,7 +4,9 @@
 #### Following Dependencies are Installed for this project
 1. User Search Engine Results Page(SERP) API for get image from user input
 2. sortColorsByHue for sorting color based on HEX value
-3. loadash for debounce.
+3. install sortColorsByHue by using **npm install sort-colors-js** command
+4. loadash for debounce.
+5. install loadash by using **npm i --save lodash command**
 
 #### Dependencies Explanation
 1. When User enter a input SERP Api will give a image result based on that
