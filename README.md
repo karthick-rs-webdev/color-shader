@@ -2,8 +2,8 @@
 Run `npm install`
 ### The following dependencies have been installed for this project:
 1. User Search Engine Results Page (SERP) API for retrieving images based on user input.
-2. sort-colors-js for sorting colors based on HEX values.
-3. lodash for debouncing.
+2. `sort-colors-js` for sorting colors based on HEX values.
+3. `lodash` for debouncing.
 
 ### Explanation of dependencies and how they work:
 1. To make the SERP API functional, add the API key in src/constants.js under the SERP_KEY variable. This step is necessary for obtaining image results.
