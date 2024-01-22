@@ -12,4 +12,4 @@ Run `npm install`
 4. Ensure the generated HEX colors are sorted. For this purpose, the sortColorsByHue package is used.
 5. Use the debounce technique to limit the rate of API calls. This method is employed for the SERP API.
 
-##Styles are written in `src/custom.css`, and the application is mobile-responsive.
+## Styles are written in `src/custom.css`, and the application is mobile-responsive.
